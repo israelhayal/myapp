@@ -1,0 +1,227 @@
+/* General Styles */
+.bg-primary {
+    background-color: #0b022b;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .font-sans {
+    font-family: sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 3.75rem;
+    }
+  }
+  
+  .hero-subtitle {
+    color: #9ca3af; /* Tailwind's text-gray-400 */
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-button {
+    background-color: white;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #e5e7eb; /* Tailwind's bg-gray-200 */
+  }
+  
+  .hero-image {
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 20rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-image {
+      max-width: 24rem;
+    }
+  }
+  
+ /* About Us Section */
+.about {
+  display: flex;
+  flex-direction: column; /* Default for mobile */
+  align-items: center;
+  gap: 2rem; /* Spacing between items */
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row; /* Horizontal layout on larger screens */
+    justify-content: center;
+  }
+}
+
+.about-item {
+  flex: 1; /* Allow items to take equal space */
+  max-width: 15rem; /* Optional: To limit the size of each item */
+}
+
+.about-item-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-item-subtitle {
+  color: #9ca3af;
+}
+
+  
+  /* Our Best Sellers Section */
+  .best-sellers {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .best-sellers-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .product-card {
+    background-color: #1a103d;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    text-align: center;
+  }
+  
+  .product-card img {
+    margin-bottom: 1rem;
+  }
+  
+  .product-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-card-price {
+    color: #ec4899; /* Tailwind's text-pink-400 */
+  }
+  
+  .view-all-button {
+    margin-top: 2rem;
+    background-color: #ec4899;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-all-button:hover {
+    background-color: #db2777; /* Tailwind's hover:bg-pink-600 */
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .why-choose-us {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .why-choose-us-text {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .why-choose-us-text {
+      text-align: left;
+    }
+  }
+  
+  .why-choose-us-title {
+    color: #ec4899;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .why-choose-us-heading {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .why-choose-us-feature {
+    color: #9ca3af;
+    margin-bottom: 1rem;
+  }
+  
+  /* Discount Banner */
+  .discount-banner {
+    padding: 3rem 0;
+    background-color: #1a103d;
+    text-align: center;
+  }
+  
+  .discount-banner-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .discount-banner-highlight {
+    color: #ec4899;
+  }
+  
+  .discount-button {
+    background-color: #ec4899;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+  }
+  
+  .discount-button:hover {
+    background-color: #db2777;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0b022b;
+    padding: 2rem 0;
+    text-align: center;
+    color: #9ca3af;
+  }
+  
